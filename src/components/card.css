@@ -1,0 +1,8 @@
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+.card-image {
+  min-width: 350px;
+}
