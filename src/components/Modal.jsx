@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./modal.css";
+import "../styles/modal.css";
 const Modal = ({ props, setModalShow }) => {
   const [plot, setPlot] = useState("");
   const [poster, setPoster] = useState("");

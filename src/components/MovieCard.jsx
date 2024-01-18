@@ -1,4 +1,4 @@
-import "./card.css";
+import "../styles/card.css";
 const MovieCard = ({ props, onClick }) => {
   const { Title, Poster } = props;
 
