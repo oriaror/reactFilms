@@ -7,7 +7,7 @@ const Modal = ({ props, setModalShow }) => {
 
   const fetchFull = async function () {
     const res = await fetch(
-      `http://www.omdbapi.com/?i=${props}&apikey=3b03ff57`
+      `https://www.omdbapi.com/?i=${props}&apikey=3b03ff57`
     );
     const data = await res.json();
     setPlot(data.Plot);
