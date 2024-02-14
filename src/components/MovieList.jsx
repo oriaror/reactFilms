@@ -17,7 +17,7 @@ const MovieList = () => {
   const [modalShow, setModalShow] = useState(false);
 
   const url =
-    "http://www.omdbapi.com?" +
+    "https://www.omdbapi.com?" +
     new URLSearchParams({
       s: title,
       apikey: "3b03ff57",
